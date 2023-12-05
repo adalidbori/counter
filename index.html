@@ -17,7 +17,7 @@
     <ul id="menuid">
         <li id="bell-icon" class="listnav"><i class="fas fa-bell"></i></li>
         <li id="filter-icon" class="listnav"><i class="fas fa-filter"></i></li>
-
+        <li id="setting-icon" class="listnav"><i class="fas fa-cog"></i></li>
     </ul>
 
     <div id="myModal" class="modal">
@@ -27,7 +27,7 @@
             <div id="linkid">
                 <a href="https://x.com/bori_adalid" target="_blank">© Adalid Bori</a>
             </div>
-            <div id="closeModalBtn">
+            <div class="modalBtn" id="closeModalBtn">
                 <i class="fas fa-circle fa-times"></i>
             </div>
         </div>
@@ -38,6 +38,31 @@
             <h3>Reset Counter?</h3>
             <button id="resetModalBtn">Yes</button>
             <button id="cancelModalBtn">Cancel</button>
+        </div>
+    </div>
+
+    <div id="settingModal" class="modal">
+        <div class="modal-content">
+            <h3 id="settingid">Setting</h3>
+            <div class="tableDiv">
+                <table>
+                    <tr>
+                        <td><button id="blackBtn"></button></td>
+                        <td><button id="whiteBtn"></button></td>
+                        <td><button id="blueBtn"></button></td>
+                        <td><button id="pinkBtn"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="grayBtn"></button></td>
+                        <td><button id="pplBtn"></button></td>
+                        <td><button id="greenBtn"></button></td>
+                        <td><button id="yellowBtn"></button></td>
+                    </tr>
+                </table>     
+            </div>
+            <div class="modalBtn" id="settingModalBtn">
+                <i class="fas fa-circle fa-times"></i>
+            </div>
         </div>
     </div>
 
